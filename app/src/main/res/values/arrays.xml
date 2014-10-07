@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_metric_options_keys">
+        <item>I</item>
+        <item>M</item>
+    </array>
+    <array name="pref_metric_options_values">
+        <item>Imperial</item>
+        <item>Metric</item>
+    </array>
+</resources>

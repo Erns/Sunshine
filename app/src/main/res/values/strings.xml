@@ -11,5 +11,10 @@
     <string name="pref_location_label">Location</string>
     <string name="pref_location_key" translatable="false">location</string>
     <string name="pref_location_default" translatable="false">68123</string>
+    <string name="pref_metric_label">Metric</string>
+    <string name="pref_metric_key">metric</string>
+    <string name="pref_metric_default">I</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
 
 </resources>
