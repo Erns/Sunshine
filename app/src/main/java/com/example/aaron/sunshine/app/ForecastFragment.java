@@ -114,14 +114,10 @@ public class ForecastFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
-                //Toast.makeText(getActivity(), "Click works!", Toast.LENGTH_SHORT).show();
-
                 String forecast = mForecastAdapter.getItem(position);
                 Intent detailIntent = new Intent(getActivity(), DetailActivity.class)
                         .putExtra(Intent.EXTRA_TEXT, forecast);
-                //Toast.makeText(getActivity(), Intent.EXTRA_TEXT, Toast.LENGTH_SHORT).show();
                 startActivity(detailIntent);
-
             }
         });
 

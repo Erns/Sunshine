@@ -82,7 +82,7 @@ public class DetailActivity extends ActionBarActivity {
             if (mShareActionProvider != null){
                 mShareActionProvider.setShareIntent(createShareForecastIntent());
             }else{
-                Log.d(LOG_TAG, "Share Action Provider is null");
+                Log.d(LOG_TAG, "I wanted another change example");
             }
 
 
@@ -92,8 +92,6 @@ public class DetailActivity extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-
-            //Toast.makeText(getActivity(), getActivity().getIntent().getStringExtra(Intent.EXTRA_TEXT), Toast.LENGTH_LONG).show();
 
             Intent intent = getActivity().getIntent();
 
