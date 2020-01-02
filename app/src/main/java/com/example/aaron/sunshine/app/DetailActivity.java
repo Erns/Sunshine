@@ -82,7 +82,7 @@ public class DetailActivity extends ActionBarActivity {
             if (mShareActionProvider != null){
                 mShareActionProvider.setShareIntent(createShareForecastIntent());
             }else{
-                Log.d(LOG_TAG, "Share Action Provider is null");
+                Log.d(LOG_TAG, "It's me creating conflicts");
             }
 
 
